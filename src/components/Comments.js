@@ -15,7 +15,7 @@ const Comments = ({ comments }) => {
         {comments.map((comment) => (
           <div>
             <CommentUser>{comment.user}</CommentUser>
-            <CommentContent>{comment.content}</CommentContent>
+            <CommentContent>{comment.comment}</CommentContent>
           </div>
         ))}
       </Comment>
