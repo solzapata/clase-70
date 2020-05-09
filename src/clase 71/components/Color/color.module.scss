@@ -1,0 +1,19 @@
+.cuadrado {
+  width: 20px;
+  height: 20px;
+  &Grey {
+    background-color: grey;
+  }
+  &Yellow {
+    background-color: yellow;
+  }
+  &Blue {
+    background-color: blue;
+  }
+  &Green {
+    background-color: green;
+  }
+  &Pink {
+    background-color: pink;
+  }
+}
